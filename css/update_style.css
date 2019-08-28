@@ -1,0 +1,107 @@
+<style>
+
+    table
+{
+  width: 500;
+  
+  }
+.box
+{
+  transform: translate(30%,3%);
+  
+}
+#header
+{
+  background-color:#C6F;
+  color:#00F;
+  border:5px solid #F60;
+}
+th
+{
+  padding:10px;
+  border:5px solid orange;
+  background-color:#9C6;
+  color:#903;
+  font-size:25px;
+}
+tr:nth-child(even)
+{
+  background-color:#FFF;
+}
+tr:nth-child(odd)
+{
+  background-color:#e8e8e8;
+}
+h1
+{
+  color: white;
+}
+
+    .vertical-menu
+    {
+      width: 200px;
+    }
+    .vertical-menu ul,li,a
+    {
+      background-color: #eee;
+      color:blue;
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+    }
+    .vertical-menu a.active
+    {
+      background-color: Gainsboro;
+      color: blue;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+    #user_table input[type="text"],#user_table input[type="file"]
+    {
+      border-spacing: 10px;
+      width: 300px;
+      height: 30px;
+      border-radius: 5px;
+      font-size: 18px;
+      color: blue;
+    }
+    #user_table tr td #sbtn
+    {
+      height: 30px;
+      border-radius: 5px;
+      font-size: 15px;
+      width: 300px;
+    }
+    #sbtn
+    { 
+
+      height: 30px;
+      border-radius: 5px;
+      font-size: 15px;
+      color: black;
+      width: 200px;
+
+    }
+  </style>
